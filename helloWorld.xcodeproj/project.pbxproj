@@ -13,6 +13,8 @@
 		DE58B2B11E9C494900D02100 /* helloWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE58B2AF1E9C494900D02100 /* helloWorld.xcdatamodeld */; };
 		DE58B2B31E9C494900D02100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE58B2B21E9C494900D02100 /* Assets.xcassets */; };
 		DE58B2B61E9C494900D02100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE58B2B41E9C494900D02100 /* LaunchScreen.storyboard */; };
+		DE58B2BE1E9C4A7600D02100 /* sexyBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE58B2BD1E9C4A7600D02100 /* sexyBackground.jpg */; };
+		DE58B2C01E9C4AA800D02100 /* helloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = DE58B2BF1E9C4AA800D02100 /* helloWorld.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DE58B2B21E9C494900D02100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE58B2B51E9C494900D02100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE58B2B71E9C494900D02100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE58B2BD1E9C4A7600D02100 /* sexyBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sexyBackground.jpg; sourceTree = "<group>"; };
+		DE58B2BF1E9C4AA800D02100 /* helloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helloWorld.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		DE58B29C1E9C494700D02100 = {
 			isa = PBXGroup;
 			children = (
+				DE58B2BF1E9C4AA800D02100 /* helloWorld.png */,
+				DE58B2BD1E9C4A7600D02100 /* sexyBackground.jpg */,
 				DE58B2A71E9C494800D02100 /* helloWorld */,
 				DE58B2A61E9C494800D02100 /* Products */,
 			);
@@ -127,8 +133,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE58B2C01E9C4AA800D02100 /* helloWorld.png in Resources */,
 				DE58B2B61E9C494900D02100 /* LaunchScreen.storyboard in Resources */,
 				DE58B2B31E9C494900D02100 /* Assets.xcassets in Resources */,
+				DE58B2BE1E9C4A7600D02100 /* sexyBackground.jpg in Resources */,
 				DE58B2AE1E9C494900D02100 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
