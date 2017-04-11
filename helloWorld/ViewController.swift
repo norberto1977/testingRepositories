@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var helloText: UIImageView!
-    @IBOutlet weak var myBackground: UIImageView!
+    @IBOutlet weak var backgroundButton: UIButton!
     
     @IBOutlet weak var clickButton: UIButton!
     
@@ -22,9 +22,20 @@ class ViewController: UIViewController {
 
     @IBAction func buttonClicked(_ sender: Any) {
         helloText.isHidden = false
-        myBackground.isHidden = false
+        backgroundButton.isHidden = false
         clickButton.isHidden = true
     }
+    
+    
+    @IBAction func backClick(_ sender: Any) {
+        if helloText.isHidden == false{
+            helloText.isHidden = true
+            backgroundButton.isHidden = true
+            clickButton.isHidden = false
+            
+        }
+    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
